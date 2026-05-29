@@ -100,3 +100,7 @@ complianceguard/
    - OPA/Rego syntax
    - Docker, Kubernetes, Terraform
    - GitLens
+
+## Execução local de dependências
+1. Copie `.env.example` para `.env` e ajuste as credenciais.
+2. Inicie os serviços de apoio com `docker compose up -d`.
