@@ -102,5 +102,7 @@ complianceguard/
    - GitLens
 
 ## Execução local de dependências
+> **Obrigatório:** o arquivo `.env` deve existir antes de executar o Docker Compose.
+
 1. Copie `.env.example` para `.env` (`cp .env.example .env`) e ajuste as credenciais obrigatoriamente.
 2. Inicie os serviços de apoio com `docker compose up -d`.
